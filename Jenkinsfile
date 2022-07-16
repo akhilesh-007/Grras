@@ -4,7 +4,7 @@ pipeline{
         stage("git checkout")
         {
             steps{
-                    git url: 'https://github.com/akhilesh-007/jaipur123.git', branch: 'dev'
+                    git url: 'https://github.com/akhilesh-007/jaipur123.git', branch: 'master'
                  }
           }
         stage("create custom image using dockerfile")

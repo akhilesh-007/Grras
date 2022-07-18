@@ -17,7 +17,7 @@ pipeline{
         stage("create docker container use webserver image")
         {
             steps{
-                sh "docker run  --name=mywebserver webserver /bin/bash"
+                sh "docker run  --name=mywebserver1 webserver /bin/bash"
             }   
             }
          stage("verify web server running or not ")
